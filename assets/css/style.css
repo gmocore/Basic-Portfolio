@@ -89,7 +89,7 @@ p {
 
 
 
-img {
+.about-image {
     height: 200px;
     width: auto;
     float: left;
@@ -171,14 +171,55 @@ button:hover {
 .portfolio-container {
     width: 960px;
 }
+.portfolio-container h3 {
+    padding: 20px;
+    font-size: 1.5em;
+}
 
 .portfolio-images {
+   display: flex;
+   flex-wrap: wrap;
+   width: 600px;
+   
     
     
 }
 
-.image {
+.image img {
     background-color: #4aaaa5;
-    height: 150px;
-    width: 150px;
+    height: 175px;;
+    width: 225px;;
+    margin: 20px;
+}
+
+.image  {
+    height: 175px;;
+    width: 200px;;
+    margin: 20px;
+}
+
+#image-4 {
+    background: url('../images/IMG_20180614_173326.jpg')  ;
+    background-size: 100% 100%;
+       
+
+}
+
+
+#image-5 {
+    background: url('../images/pexels-photo-2480684.jpeg')  ;
+    background-size: cover;    
+
+}
+
+#image-6 {
+    background: url('../images/IMG_20180428_075402-EFFECTS.jpg');  
+    background-size: 100% 100%;
+    
+}
+
+.photo-label {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    
 }
