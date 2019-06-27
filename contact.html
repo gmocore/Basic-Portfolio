@@ -34,7 +34,7 @@
         <h4 class="form-heading">Message</h4>
 
         <textarea id="message-box" placeholder="Enter a message"></textarea>
-        <button type="submit">Submit</button>
+        <button type="submit" id="submit">Submit</button>
       </div>
     </div>
   </div>
@@ -43,5 +43,11 @@
   </div>
 
 </body>
+<script>
+  const submit = document.getElementById('submit')
+  submit.addEventListener('click', () => {
+    alert("Thank you for submitting this form. one day it may actually do something")
+  })
+</script>
 
 </html>
