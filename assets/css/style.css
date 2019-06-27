@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    line-height: 25px;
+    line-height: 30px;
     letter-spacing: 1.5px;
     margin: 0 auto;
     
@@ -13,22 +13,29 @@ body {
 
 .heading {
     font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    color: #4aaaa5;
+    
 }
 
 /* NAV STYLES */
 
 .navbar {
     display: flex;
+    justify-content: center;
     border-bottom: #cccccc solid 1px;
-    margin-bottom: 25px;
+    
 }
 
 .nav-title {
-    margin-left: 160px;
+    
     color: white;
     background-color: #4aaaa5;
     padding: 25px;
     font-size: .8em
+}
+
+#title {
+    color: white;
 }
 
 .nav-links  {
@@ -55,12 +62,28 @@ ul {
 
 /* ABOUT STYLES */
 
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .about-container {
-    margin: 0 auto;
+    height: 81.5vh;
     width: 960px;
-    
+    display: flex;
+    padding: 10px;
 
 }
+
+.title-section h3 {
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 10px;
+}
+
 
 
 img {
@@ -68,4 +91,15 @@ img {
     width: auto;
     float: left;
     margin: 20px 30px 15px 5px;
+}
+
+/* FOOTER STYLES */
+
+.footer-wrapper {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: gray;
+    border-top: 6px solid turquoise;
 }
