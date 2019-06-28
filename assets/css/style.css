@@ -69,7 +69,6 @@ ul {
 }
 
 .about-container {
-    height: 81.5vh;
     width: 960px;
     display: flex;
     padding: 10px;
@@ -154,7 +153,6 @@ button:hover {
 
 .portfolio-container {
     width: 960px;
-    height: 83.8vh;
 }
 .portfolio-container h3 {
     padding: 20px;
