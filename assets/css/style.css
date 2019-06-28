@@ -143,6 +143,12 @@ input {
     height: 25px;
     border: #dddddd 1px solid;
     padding: 5px;
+    outline-color: #4aaaa5;
+    transition: .5s;
+}
+
+input:hover {
+    border-color: #4aaaa5;
 }
 
 #message-box {
@@ -151,6 +157,13 @@ input {
     border: #dddddd 1px solid;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    outline-color: #4aaaa5;
+    transition: 0.5s;
+}
+
+
+#message-box:hover {
+    border-color: #4aaaa5;
 }
 
 button {
