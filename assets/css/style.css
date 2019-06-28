@@ -8,7 +8,7 @@ body {
     line-height: 30px;
     letter-spacing: 1.5px;
     color: #777777;    
-    background: url('../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg');
+    background: url('../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg') no-repeat;
     background-size: 100% 100%;
 }
 
@@ -272,7 +272,7 @@ button:hover {
     background-color: #666666;
     color: white;
     border-top: 6px solid #4aaaa5;
-    position: absolute;;
+    position: relative;
     bottom: 0;
 
     
