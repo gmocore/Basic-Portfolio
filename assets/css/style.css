@@ -8,6 +8,8 @@ body {
     line-height: 30px;
     letter-spacing: 1.5px;
     color: #777777;    
+    background: url('../images/steve-johnson-YS0YJLU_h2k-unsplash.jpg');
+    background-size: 100% 100%;
 }
 
 .heading {
@@ -25,6 +27,7 @@ hr {
     display: flex;
     justify-content: center;
     border-bottom: #cccccc solid 1px;  
+    background-color: #ffffff;
 }
 
 .nav-title {
@@ -32,7 +35,7 @@ hr {
     color: white;
     background-color: #4aaaa5;
     padding: 25px;
-    font-size: .8em
+    font-size: .8em;
 }
 
 #title {
@@ -65,13 +68,15 @@ ul {
 .about-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 3px;
+    
 }
 
 .about-container {
     width: 960px;
     display: flex;
     padding: 10px;
+    background-color: #fff;
+    margin: 20px 0;
 }
 
 .title-section h3 {
@@ -104,6 +109,7 @@ p {
     border: #dddddd 1px solid;
     padding: 20px;
     margin-bottom: 212px;
+    background-color: #fff;
 }
 
 
@@ -148,11 +154,13 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2px;
+    
 }
 
 .portfolio-container {
     width: 960px;
+    background-color: #fff;
+    margin: 20px 0;
 }
 .portfolio-container h3 {
     padding: 20px;
@@ -172,7 +180,7 @@ button:hover {
 }
 
 #image-1 {
-    background: url('..//images/pexels-photo-1804796.jpeg');
+    background: url('../images/pexels-photo-1804796.jpeg');
     background-size: 100% 100%;
 }
 
