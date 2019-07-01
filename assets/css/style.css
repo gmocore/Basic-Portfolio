@@ -18,31 +18,46 @@ body {
 }
 
 
-
 /* NAV STYLES */
 
-.navbar {
+.navbar-wrapper {
     display: flex;
     justify-content: center;
     border-bottom: #cccccc solid 1px;  
     background-color: #ffffff;
+    
+}
+
+.navbar-container {
+    width: 76.5vw;
 }
 
 .nav-title {
-    width: 250px;
     color: white;
     background-color: #4aaaa5;
     padding: 25px;
     font-size: .8em;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 #title {
     color: white;
+    width: 250px;;
+}
+
+.link-wrapper {
+    float: right;
+    display: flex;
 }
 
 .nav-links  {
-    margin-left: 500px;
-    margin-top: 30px;  
+    margin-top: 25px;  
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .nav-links a {
@@ -69,6 +84,8 @@ body {
 ul {
     align-content: flex-end;
 }
+
+
 
 /* ABOUT STYLES */
 
