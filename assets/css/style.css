@@ -8,11 +8,7 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -22,8 +18,9 @@ body {
     background: url('../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg') ;
     background-size: 100% 100%;
     min-height: 100%;
-    position: relative;
-    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .heading {
@@ -283,9 +280,7 @@ button:hover {
 /* FOOTER STYLES */
 
 .footer-wrapper {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    margin-top: auto;
     
 }
 
